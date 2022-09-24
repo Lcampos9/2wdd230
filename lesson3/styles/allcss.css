@@ -1,0 +1,191 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+	font-family: "Noto Sans", sans-serif;
+}
+header {
+	background-color: #bed;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 2px;
+}
+
+ footer {
+	background-color: #bed;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+}
+header,
+nav,
+main,
+footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+h1{
+	text-align: center;
+	flex-grow: 1;
+	font-family: Montserrat;
+}
+h2{
+	text-align: center;
+	font-family: Montserrat;
+}
+footer p{
+	text-align: center;
+
+}
+
+nav {
+	background-color: #36454f;
+	text-align: center;
+	box-shadow: 0 2px 15px gray;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: rgb(29, 24, 24);
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.logo-box img {
+    height: 70px;
+
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+}
+
+main section {
+	margin: .5rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+
+#primary {
+	display:inline-block;
+	border: 1px solid;
+	padding:3px;
+	
+    background-color: #96CEB4;
+}
+#second {
+	display:inline-block;
+	border: 1px solid;
+	margin-top: 5px;
+	padding:3px;
+    background-color: #FFEEAD;
+}
+#acc1 {
+	display:inline-block;
+	border: 1px solid;
+	margin-top: 5px;
+	padding:3px;
+    background-color: #D9534F;
+}
+#acc2 {
+	display:inline-block;
+	border: 1px solid;
+	margin-top: 5px;
+	padding:3px;
+    background-color: #FFAD60;
+}
+#acc3 {
+	display:inline-block;
+	border: 1px solid;
+	margin-top: 5px;
+	padding:3px;
+    background-color: #36454f;
+	color: white;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	/* Flex *********************/
+	 	nav ul { display: flex; }
+		nav ul li { flex: 1 1 auto; } 
+        main {
+            grid-template-columns: 1fr 1fr;
+        }
+        article:nth-child(3) {
+            grid-column: span 2;
+        }
+        main picture {
+            display: block;
+        }
+        main picture img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #bbb;
+        }
+        header,
+        nav,
+        main,
+        footer {
+            max-width: 700px;
+            margin: 0 auto;
+            display: block;
+        }
+		header {
+	
+			display: flex;
+			flex-grow: column;
+			align-items: center;
+			justify-content: flex-start;
+			padding: 2px;
+		}
+		h1 {
+			flex-grow: 1;
+		}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+
+    header,
+        nav,
+        main,
+        footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: block;
+}
+header {
+	
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 2px;
+}
+h1 {
+	flex-grow: 1;
+}
+}
