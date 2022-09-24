@@ -6,20 +6,22 @@ body {
 	font-family: "Noto Sans", sans-serif;
 }
 header {
-	background-color: #bed;
+	background-color: #11324D;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	padding: 2px;
+    border-radius: 8px;
 }
 
  footer {
-	background-color: #bed;
+	background-color: #11324D;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 2px;
+    border-radius: 8px;
 }
 header,
 nav,
@@ -27,44 +29,66 @@ main,
 footer {
 	max-width: 1200px;
 	margin: 0 auto;
+    
 }
 h1{
 	text-align: center;
 	flex-grow: 1;
 	font-family: Montserrat;
+    color: #E7E0C9;
 }
 h2{
 	text-align: center;
 	font-family: Montserrat;
+    color: #11324D;
+    
 }
 footer p{
 	text-align: center;
+    color: #E7E0C9;
+    
 
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #C1CFC0;
 	text-align: center;
-	box-shadow: 0 2px 15px gray;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px #6B7AA1;
+
+	
 }
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    margin-top:15px;
+    margin-bottom: 15px;
 }
+
+
 
 nav ul li a {
 	display: block;
-	color: rgb(29, 24, 24);
+	color: #11324D;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 1.2rem;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #6B7AA1;
 }
 
+.logo-box {
+
+    margin-left: 10px;
+}
 .logo-box img {
     height: 70px;
+    border-radius: 20px;
 
 }
 main {
@@ -77,44 +101,57 @@ main section {
 	margin: .5rem;
 	border: 1px solid #bbb;
 	padding: 1rem;
-	background-color: #eee;
+	background-color: #ece8da;
+    box-shadow: 0 2px 15px #6B7AA1;
+    border-radius: 8px;
+    line-height: 200%;
 }
 
 #primary {
 	display:inline-block;
 	border: 1px solid;
-	padding:3px;
-	
-    background-color: #96CEB4;
+    border-radius: 20px;
+	padding:8px;
+	color: white;
+    background-color: #11324D;
+    box-shadow: 0 2px 15px #6B7AA1;
 }
 #second {
 	display:inline-block;
 	border: 1px solid;
+    border-radius: 20px;
 	margin-top: 5px;
-	padding:3px;
-    background-color: #FFEEAD;
+	padding:8px;
+    background-color: #ece8da;
+    box-shadow: 0 2px 15px #6B7AA1;
 }
 #acc1 {
 	display:inline-block;
 	border: 1px solid;
 	margin-top: 5px;
-	padding:3px;
-    background-color: #D9534F;
+	padding:8px;
+    border-radius: 20px;
+    background-color: #C1CFC0;
+    box-shadow: 0 2px 15px #6B7AA1;
 }
 #acc2 {
 	display:inline-block;
 	border: 1px solid;
 	margin-top: 5px;
-	padding:3px;
-    background-color: #FFAD60;
+	padding:8px;
+    border-radius: 20px;
+    background-color: #6B7AA1;
+    box-shadow: 0 2px 15px #6B7AA1
 }
 #acc3 {
 	display:inline-block;
 	border: 1px solid;
 	margin-top: 5px;
-	padding:3px;
+	padding:8px;
+    border-radius: 20px;
     background-color: #36454f;
 	color: white;
+    box-shadow: 0 2px 15px #6B7AA1
 }
 
 /* Tablet Views ******************************/
