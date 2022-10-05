@@ -29,6 +29,7 @@ header {
 	justify-items: center;
 	background-color: #3e6a88;
 	color: #eee;
+	
 }
 
 
@@ -37,7 +38,7 @@ nav ul {
 	list-style: none;
 	padding: 0;
 	margin:0;
-	background-color: cadetblue;
+	background-color: rgb(71, 225, 236);
 
 }
 
@@ -52,21 +53,26 @@ nav ul {
 	display: none;
 }
 
-nav ul.open {
+nav ul.open  {
 	display: block;
-	position: absolute;
-	left: -5px;
+	margin: auto;
+  	position: absolute;
+  	top:130px;
+	left:0%;
 	width: 100%;
-	height: 150px;
-	margin: 5px;
-	border-radius: 5px;
+  	z-index: 100;
+	
 }
 nav ul.open a:hover{
 	color: white;
 	background-color: black;
+	
 }
-nav ul.open li{
-	margin: 15px;
+nav ul.open li a{
+	margin: 5px;
+	padding:10px;
+	text-align: center;
+	transition: 0.3s;
 }
 .logo-box img{
 	width:50px;
