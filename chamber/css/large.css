@@ -13,10 +13,6 @@
     #hamburgerBtn{
         display: none;
     }
-    nav ul#primarynav{
-    
-        display:block !important;
-    }
     .logo-box {
 
        align-items: center;
