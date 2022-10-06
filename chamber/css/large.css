@@ -8,12 +8,15 @@
         grid-template-columns: 0.4fr 0.7fr 0.8fr 0.3fr;
         grid-template-rows: 100px 40px;
         gap: 5px;
-        background-color: #3e6a88;
+        
     }
     #hamburgerBtn{
         display: none;
     }
-
+    nav ul#primarynav{
+    
+        display:block !important;
+    }
     .logo-box {
 
        align-items: center;
@@ -31,14 +34,14 @@
          font-size: 45px;
          padding: 0;
          margin: 0;
-         color:#eee;
+         
      }
 
      .content-header p {
         font-size:20px;
         padding: 0;
         margin: 0;
-        color:#eee;
+        
      }
 
      .nav {
@@ -52,7 +55,7 @@
 
     nav ul#primaryNav{
         display: flex;
-        position: relative;
+        position: relative ;
         margin: 0 0 auto;
         width: auto;
         height: auto;
@@ -70,10 +73,10 @@
 
     nav ul li a {
         font-size: 18px;
-        color:#eee;
+        color:#ECE8DA;
     }   
     nav ul li a:hover {
-        color: #FFEEAD;
+        color: #C1CFC0;
     } 
     
     .social {

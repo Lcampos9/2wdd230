@@ -13,6 +13,7 @@ body {
 }
 h1, h2, footer {
     font-family: Montserrat;
+	color: #E7E0C9;
 }
 #banner {
 	background-color: #FFAD60;
@@ -27,7 +28,7 @@ header {
 	grid-template-rows: 90px 35px;
 	gap: 5px;
 	justify-items: center;
-	background-color: #3e6a88;
+	background-color: #11324D;
 	color: #eee;
 	
 }
@@ -38,7 +39,7 @@ nav ul {
 	list-style: none;
 	padding: 0;
 	margin:0;
-	background-color: rgb(71, 225, 236);
+	background-color: #ECE8DA;
 
 }
 
@@ -62,17 +63,18 @@ nav ul.open  {
 	width: 100%;
   	z-index: 100;
 	
+	  
+
 }
 nav ul.open a:hover{
-	color: white;
-	background-color: black;
-	
+	color: #ECE8DA;
+	background-color: #11324D;
 }
 nav ul.open li a{
 	margin: 5px;
 	padding:10px;
 	text-align: center;
-	transition: 0.3s;
+	
 }
 .logo-box img{
 	width:50px;
@@ -96,7 +98,10 @@ nav ul.open li a{
 #hamburgerBtn {
 	width: 30px;
 	height: 30px;
+	background-color: #ECE8DA;
+	border-radius: 5px;
 }
+
  nav {
 	justify-self: center;
 	align-self: center;
@@ -111,6 +116,7 @@ nav ul.open li a{
 .paragraph-header{
 	font-size: 14px;
 	padding: 0;
+	color: #E7E0C9;
 }
 
 .date-header{
@@ -122,7 +128,8 @@ nav ul.open li a{
 	border: 1px solid #bbb;
 	width: 90%;
 	text-align: center;
-	background-color: #54819e;
+	background-color: #11324D;
+	color: #E7E0C9;
 }
 
 
@@ -334,7 +341,8 @@ footer{
 	grid-template-rows: 250px 5px 100px;
 	align-content: center;
 	justify-content: center;
-	background-color: #3e6a88;
+	background-color: #11324D;
+	
 	
 }
 
@@ -346,7 +354,7 @@ footer{
 	justify-content: center;
 	font-size: 13px;
 	font-style: italic;
-	color: #eee;
+	color: #E7E0C9;
 }
 .one-footer p, .two-footer p{
 	margin:4px;
