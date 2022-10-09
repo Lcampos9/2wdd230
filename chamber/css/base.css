@@ -11,6 +11,11 @@ body {
 	font-family: "Noto Sans", sans-serif;
 
 }
+
+#banner {
+	background-color: #FFAD60;
+	color:rgb(145, 37, 37);
+}
 h1, h2, footer {
     font-family: Montserrat;
 	color: #E7E0C9;
