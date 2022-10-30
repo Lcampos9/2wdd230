@@ -389,4 +389,23 @@ footer{
 	display: none;
 }
 
+/*Discover page*/
 
+.discover {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pic img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	margin-top: 20px;
+	
+}
+picture:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}

@@ -158,14 +158,6 @@ footer {
 
 /*----------------------------------------------------------------------------------------------------------------------
  Discover Page
+
+ 
  */
- .container-discover picture img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
- .container-discover picture:hover img {
-	-webkit-filter: blur(0);
-	filter: blur(0);
-}

@@ -169,10 +169,6 @@ footer {
  Discover Page
  */
 
- .discover {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
+ 
 
 /*Join Page*/
