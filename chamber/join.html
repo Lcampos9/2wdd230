@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2wdd230/chamber/css/normalize.css"> 
+    <link rel="stylesheet" href="/2wdd230/chamber/css/base.css">
+    <link rel="stylesheet" href="/2wdd230/chamber/css/medium.css">
+    <link rel="stylesheet" href="/2wdd230/chamber/css/large.css"> 
+    
+    <title>Join Page</title>
+</head>
+<body>
+    <div id="content">
+        <div id="banner">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+         </div>
+         <header>
+            <picture class="logo-box">
+               <a href="/chamber/index.html"><img src="/2wdd230/chamber/images/Logo.png" width="80" alt="Logo"></a>
+            </picture>
+            <div class="content-header">
+               <h1>San Marcos</h1>
+               <p class="paragraph-header">Chamber of Commerce</p>
+            </div>
+            <div class="social">
+               <img class="fb" src="images/facebook.png" alt="facebook">
+               <img src="images/linkedin.png" alt="linkedin">
+            </div> 
+            <nav class="nav">
+               <button id="hamburgerBtn">&#9776;</button>
+               <ul id="primaryNav">
+                  <li><a href="#">Discover</a></li>
+                  <li><a href="#">Join</a></li>
+                  <li><a href="#">Directory</a></li>
+                  <li><a href="#">Contact</a></li> 
+               </ul>
+            </nav>
+               <span class="date-header">Current Date is</span>
+         </header>
+         <h2 class="joinh1">Join Page</h1>
+
+    <main class="mainjoin">
+        <div class="form">   
+        <form action="thankyou.html" method="get">
+             <fieldset>
+                 <legend>Applicant Information</legend>
+                 <label class="top"> First Name* <input type="text" name="fname" required></label>
+                 <label class="top"> Last Name* <input type="text" name="lname" required></label>
+                 <label class="top"> Position Title <input type="text" name="position"></label>
+                 <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                 <label class="top"> Phone <input type="tel" name="phone"></label>
+                 <label class="top"> Business Name <input type="text" name="business"></label>
+                <label class="top">Course Subject
+                    <select name="subject">
+                    <option value="">Please Select</option>
+                    <option value="np">NP Membership is for non profit organizations and there is no fee.</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver ">Silver Membership</option>
+                    <option value="gold membership">Gold Membership</option>
+                    </select>
+                </label>
+                <label class="top" >Describe your business:
+<textarea name="describebusiness" rows="4" cols="50"></textarea></label>
+    
+            </fieldset>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
+        </form>
+    </div> 
+        </main>
+        <footer>
+            <div class="one-footer">
+               <picture class="logo-box-two">
+                  <img src="images/Logo.png" width="80" alt="Logo">
+               </picture>
+               <p class="title-footer"> <strong>San Marcos Chamber of Commerce</strong> </p>
+               <p class="address-footer">Carlos Nuñez, San Marcos, Carazo, Nicaragua</p>
+               <p class="email-footer">info@snmarcoscc.org</p>
+               <p class="phone-footer"> + (505) 82549498</p>
+               <p class="map-footer">Location map</p>
+            </div>
+            <hr class="line">
+            <div class="two-footer">
+               <p class="yearchamber">© <span id="year"></span> San Marcos Chamber of Commerce</p>
+                  <span class="one">|</span>
+               <p class="name"><strong>Luis Campos</strong></p>   
+                  <span class="two">|</span>
+               <p class="name">WDD 230 Project</p>
+                  <span class="three">|</span>
+               <p id="yellow">Last Modified: <span id="lastmod"></span> </p>
+            </div>
+      </footer>
+    </div>
+    <script src="js/banner.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="/2wdd230/lesson1/scripts/index.js"></script>
+</body>
+</html>
