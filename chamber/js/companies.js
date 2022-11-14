@@ -28,7 +28,7 @@ fetch(requestURL)
   
     // Change the textContent property of the h2 element to contain the company's name
     h2.innerHTML = `${company.name}`;
-    address.innerHTML = `<strong>Date of Birth:</strong> ${company.address}`;
+    address.innerHTML = `<strong>Address:</strong> ${company.address}`;
     phoneNumber.innerHTML = `<strong>Phone Number:</strong> ${company.phoneNumber}`;
     websiteUrl.innerHTML = `<strong>Website URL:</strong> ${company.websiteUrl}`;
     membershipLevel.innerHTML = `<strong>Membership Level:</strong> ${company.membershipLevel}`;

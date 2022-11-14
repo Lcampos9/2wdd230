@@ -489,3 +489,88 @@ form label.top input:required:valid{
 	text-align: center;
 	padding-top: 20px;
 }
+
+/*Directory page*/
+
+.maindirectory{
+	display: block;
+}
+.directoryh2{
+	text-align: center;
+	margin-top: 20px;
+}
+.menudirec{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 20px;
+	
+}
+
+.companycards section {
+
+	height: 500px;
+}
+.companycards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	
+}
+
+.companycards section p, .companycards section h2 {
+	text-align: center;
+	margin-bottom: 10px;
+} 
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.companycards section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.companycards section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+	height: auto;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+@media (max-width: 960px) {
+	
+	.list section  {
+		display: flex;
+		flex-direction: column;		
+	}
+	
+}
+
+@media (min-width: 960px) {
+	.list section img {
+		display: block;
+	}
+
+	.list section img {
+		width: 100px;
+	}
+}
