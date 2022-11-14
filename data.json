@@ -1,0 +1,85 @@
+{
+    "companies": [
+      {
+        "name": "Coca Cola",
+        "address": "61743 Balistreri Dale, Heaneyville, VA, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.coca-colacompany.com/",
+        "membershipLevel": "Bronze",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/Cocacola.png?v=1668388437936"
+      },
+      {
+        "name": "Intel",
+        "address": "4203 Sawayn Shoal, Isomchester, FL, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.intel.com/",
+        "membershipLevel": "Silver",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/Intel.png?v=1668388456715"
+      },
+      {
+        "name": "Facebook",
+        "address": "8973 Macejkovic Dam Suite 460, East Ruth, NJ, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.facebook.com/",
+        "membershipLevel": "Gold",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/fb.png?v=1668388476155"
+      },
+      {
+        "name": "Microsoft",
+        "address": "2253 Augusta Road Suite 916, North Mercedes, CT, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.microsoft.com/",
+        "membershipLevel": "Platinum",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/microsoft.png?v=1668388490223"
+      },
+      {
+        "name": "Samsung",
+        "address": "801 Kirlin Square Apt. 478, South Ricky, GU, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.samsung.com/",
+        "membershipLevel": "Bronze",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/samsung.png?v=1668389886662"
+      },
+      {
+        "name": "Amazon",
+        "address": "48059 Maximus Ville, FL, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.amazon.com/",
+        "membershipLevel": "Silver",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/amazon.png?v=1668389901959"
+      },
+      {
+        "name": "Zoom",
+        "address": "662 Hills Pass Apt. 945, FL, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://zoom.us/",
+        "membershipLevel": "Gold",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/zoom.png?v=1668389919725"
+      },
+      {
+        "name": "Apple",
+        "address": "477 Victoria Vista, NJ, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.apple.com/",
+        "membershipLevel": "Platinum",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/apple.png?v=1668389937202"
+      },
+      {
+        "name": "Lenovo",
+        "address": "7043 Benny Dam Suite 324, NY, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.lenovo.com/",
+        "membershipLevel": "Bronze",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/lenovo.png?v=1668389956402"
+      },
+      {
+        "name": "Verizon",
+        "address": "640 Norbert Parkways, TX, US",
+        "phoneNumber": 123456278,
+        "websiteUrl": "https://www.verizon.com/",
+        "membershipLevel": "Silver",
+        "imageurl": "https://cdn.glitch.global/7cee1380-7d26-42ff-83bb-77a71ff8752c/verizon.png?v=1668389974481"
+      }
+      
+    ]
+  }
