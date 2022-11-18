@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#weather-temp');
 const currentWindSpeed = document.querySelector('#weather-windspeedresult');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const url = 'https://lcampos9.github.io/2wdd230/prueba.json';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=11.8496&lon=-86.199&appid=cd9ad916dfac774d08d7341bb3880649';
 
 async function apiFetch() {
     try {
