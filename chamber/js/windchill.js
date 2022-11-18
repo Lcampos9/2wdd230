@@ -1,8 +1,8 @@
 function buildwc () {
 
-    let temp = parseInt(document.getElementById('weather-temp').innerHTML);
-    let windspeed = parseInt(document.getElementById('weather-windspeedresult').innerHTML);
-    let windchill = document.getElementById('weather-windchillresult');
+    const temp = document.getElementById('weather-temp').innerHTML;
+    const windspeed = document.getElementById('weather-windspeedresult').innerHTML; 
+    const windchill = document.getElementById('weather-windchillresult');
    
     if ( temp <= 50 && windspeed > 3) { 
 
