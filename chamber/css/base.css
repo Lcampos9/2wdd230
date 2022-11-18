@@ -239,13 +239,6 @@ nav ul.open li a{
 	align-self: center;
 }
 
-.weather-state {
-	grid-column: 2/3;
-	grid-row: 3/4;
-	justify-self: center;
-	align-self: center;
-}
-
 .line-two {
 	grid-column: 1/3;
 	grid-row: 4/5;
