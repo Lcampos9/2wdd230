@@ -11,7 +11,7 @@ body {
 	font-family: "Noto Sans", sans-serif;
 
 }
-
+a:link { text-decoration: none; }
 #banner {
 	background-color: #FFAD60;
 	color:rgb(145, 37, 37);
@@ -503,6 +503,7 @@ form label.top input:required:valid{
 .companycards section {
 
 	height: 500px;
+	border-radius: 5px;
 }
 .companycards {
 	display: grid;

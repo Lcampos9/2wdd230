@@ -49,7 +49,12 @@
             gap: 12px;
             justify-self: center;
             position: relative;
-            
+    
+        }
+
+        .join a {
+            display: flex;
+            justify-content: center;
         }
         .button-join {
             border-radius: 10px;
