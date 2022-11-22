@@ -10,21 +10,16 @@
 
     }
 
-    nav ul.open{
-        max-width:700px;
-        margin: 0 auto;
-        right: 0;
-        
-    }
-
     .content-header h1{
 
         font-size: 29px;
     }
-    #hamburgerBtn {
-        width: 40px;
-        height: 40px;
+    .responsive{
+        position: absolute;
+          top:120px;
+
     }
+    
         main {
             display: grid;
             grid-template-columns: 70% 30%;
@@ -169,6 +164,8 @@ footer {
     
 }
 }
+
+
 
 /*----------------------------------------------------------------------------------------------------------------------
  Discover Page
