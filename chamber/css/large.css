@@ -163,10 +163,82 @@ footer {
 .two-footer {
     font-size: 14px;
 }
+
+
+/*Discover Page*/
+
+/*Join Page*/
+
+.mainjoin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.joinmembership p, ul, li, hr {
+	line-height : 40px;
+    
+
+}
+.joinmembership, ul, li, hr {
+	line-height : 40px;
+    
+
+}
+/* Contact Us page*/
+ main {
+    display: block;
 }
 
-/*----------------------------------------------------------------------------------------------------------------------
- Discover Page
+.maincontactus {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 
+ .contactinfo {
+    margin: 100px;
+    border: 1px solid rgb(125, 142, 173);
+ }
  
- */
+.hero-picture {
+
+    border-radius: 5px;
+}
+.contactinfo p {
+    font-size: 20px;
+    
+}
+
+.contact1h2, .contact3h2, .contact2h2, .contact4h2 {
+    font-size: 25px;
+}
+
+.contact1h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contact4h2 {
+	display: block;
+
+}
+
+.embedmap iframe {
+
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
