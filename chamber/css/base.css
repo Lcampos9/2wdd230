@@ -520,12 +520,12 @@ form label.top input:required:valid{
 	padding-top: 20px;
 }
 
-
-
-.joinmembership p, ul, li, hr {
+.joinmembership p, .joinmembership ul, .joinmembership li {
 	line-height : 25px;
 	text-align: center;
 }
+
+
 
 .joinmembership  li{
 	list-style: none;
@@ -618,9 +618,7 @@ form label.top input:required:valid{
 
 
 /* Contact Us page*/
-main {
-	display: block;
-}
+
  .maincontactus {
 	display: flex;
 	flex-direction: column;
