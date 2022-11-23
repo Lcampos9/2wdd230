@@ -335,9 +335,8 @@ nav {
 	
 }
 
-main section {
+main section{
 	margin: .5rem;
-	
 	padding: 4rem;
 	box-shadow: 0 2px 15px #6B7AA1;
 	background-color:#f7f5f1;
@@ -590,3 +589,22 @@ form label.top input:required:valid{
 		width: 100px;
 	}
 }
+
+
+/* Contact Us page*/
+
+.maincontactus {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactstart, .form-contact, .contactinfo, .embedmap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	background-color: transparent;
+	border: none
+}
+
