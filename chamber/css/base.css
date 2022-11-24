@@ -22,7 +22,7 @@ h1, footer {
 	color: #E7E0C9;
 }
 
-h2{
+h2, h3{
 	font-family: "Noto Sans", sans-serif;
 	color: #11324D;
 }
@@ -411,21 +411,81 @@ footer{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: rgb(210, 235, 245);
 }
+.picsection11 p , .picsection22 p, .picsection33 p, .picsection44 p{
+    font-size: 15px;
+  }
+  .picsection11 h3 , .picsection22 h3, .picsection33 h3, .picsection44 h3{
+    font-size: 20px;
+  }
 
-.pic img {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	margin-top: 20px;
+  .picsection1 h3 , .picsection2 h3, .picsection3 h3, .picsection4 h3{
+    font-size: 20px;
+  }
+  .picsection1 , .picsection2, .picsection3, .picsection4{
+    background-color: #def8ee ;
+    transition: transform .2s;
+  }
+.picsection1, .picsection2, .picsection3, .picsection4{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	gap: 20px;
+	transform: .9s;
+
+}
+.discoverh2{
+
+	padding: 30px;
+}
+.pic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
 	
 }
-picture:hover img {
-	-webkit-filter: blur(0);
-	filter: blur(0);
+
+.pic img{
+
+	border-radius: 8px;
 }
 
+.picsection11, .picsection22, .picsection33, .picsection44{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #fdfaee;
+    transition: transform .2s;
+	width: 430px;
+  } 
+
+.discover section picture:hover img {
+	
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 /*-------------------FORM - JOIN PAGE ---------------*/
 
 .mainjoin {
