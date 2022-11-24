@@ -256,9 +256,17 @@ footer {
     justify-items: center;
     padding-top: 30px;
 }
-  
+  .joinmembership{
+    gap: 20px;
+    align-self: top;
+    border: 1px solid rgb(125, 142, 173);
+    margin-top: 39px;
+    height: 850px;
+    padding: 10px;
+  }
 .joinmembership p, ul, li {
 	line-height : 40px;
+    font-size: 15px;
     
 
 }
